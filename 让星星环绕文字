@@ -1,0 +1,10 @@
+def letstarsaround(n):
+    a = chr(0x2605)
+    b = len(n)
+    c = a * (b + 2)
+    d = a + n + a
+    print(c)
+    print(d)
+    return c
+n = input("请输入一段文字：\n")
+print("{}".format(letstarsaround(n)))

@@ -1,0 +1,10 @@
+ls = []
+x = int(input("请输入x的值："))
+y = int(input("请输入y的值："))
+z = int(input("请输入z的值："))
+ls = [x,y,z]
+for i in range(1,len(ls)):
+    for j in range(len(ls)-i):
+        if ls[j] > ls[j+1]:
+            ls[j],ls[j+1] = ls[j+1],ls[j]
+print("{}".format(ls))

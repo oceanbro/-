@@ -1,0 +1,5 @@
+def Cuberoot(n):
+    a = pow(n,1/3)
+    return a
+n = int(input("请输入一个整数：\n"))
+print("{}的三次方根为：{}".format(n,Cuberoot(n)))

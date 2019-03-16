@@ -7,4 +7,4 @@ for i in range(1,len(ls)):
     for j in range(len(ls)-i):
         if ls[j] > ls[j+1]:
             ls[j],ls[j+1] = ls[j+1],ls[j]
-print("{}".format(ls))
+print("{}".format.(ls))
